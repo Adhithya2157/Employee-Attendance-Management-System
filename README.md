@@ -28,14 +28,16 @@ Open the `main.py` file and update the following configuration variables to matc
 ```python
 DB_USER = "root"          # Replace with your MySQL username
 DB_PASSWORD = "12345"     # Replace with your MySQL password
-###  3. Install Dependencies
+3. Install Dependencies
 Install the required Python modules using pip[cite: 1]:
+
+Bash
 pip install mysql-connector-python tabulate
-
-### 4. Run the Application
+4. Run the Application
 Execute the primary script to initialize the database tables and launch the menu interface[cite: 1]:
-python main.py
 
+Bash
+python main.py
 🔒 Default Credentials
 For the initial setup and first-time login, use the following default admin credentials[cite: 1]:
 
